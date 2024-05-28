@@ -1,0 +1,6 @@
+sensor:
+  - platform: scd4x
+    address: 0x62
+    co2:
+      name: "CO2"
+      id: co2_sensor
